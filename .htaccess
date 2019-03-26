@@ -1,0 +1,6 @@
+RewriteEngine ON
+#-----ADMIN------------------
+RewriteRule "^admin$" "templates/admin/dashboard.php"
+RewriteRule "^admin/login$" "templates/admin/login.php"
+
+#-----Customer---------------
